@@ -14,3 +14,4 @@
 - `.clear-both`
 - `.clear-start`
 - `.clear-end`
+- `.clear-after`
