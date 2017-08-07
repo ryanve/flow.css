@@ -18,3 +18,8 @@
 .clear-start:dir(rtl) { clear: right }
 .clear-end:dir(ltr) { clear: right }
 .clear-end:dir(rtl) { clear: left }
+.clear-after::after {
+  content: "";
+  display: block;
+  clear: both;
+}
