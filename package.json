@@ -1,0 +1,21 @@
+{
+  "name": "flow.css",
+  "version": "0.0.0",
+  "description": "CSS floats and clears",
+  "author": "Ryan Van Etten",
+  "license": "ISC",
+  "main": "flow.css",
+  "scripts": {},
+  "homepage": "https://github.com/ryanve/flow.css",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanve/flow.css.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ryanve/flow.css/issues"
+  },
+  "keywords": [
+    "functional-css",
+    "css"
+  ]
+}
