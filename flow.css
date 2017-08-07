@@ -1,8 +1,20 @@
 .float-none { float: none }
 .float-left { float: left }
 .float-right { float: right }
+.float-start { float: inline-start }
+.float-end { float: inline-end }
+.float-start:dir(ltr) { float: left }
+.float-start:dir(rtl) { float: right }
+.float-end:dir(ltr) { float: right }
+.float-end:dir(rtl) { float: left }
 
 .clear-none { clear: none }
 .clear-left { clear: left }
 .clear-right { clear: right }
 .clear-both { clear: both }
+.clear-start { clear: inline-start }
+.clear-end { clear: inline-end }
+.clear-start:dir(ltr) { clear: left }
+.clear-start:dir(rtl) { clear: right }
+.clear-end:dir(ltr) { clear: right }
+.clear-end:dir(rtl) { clear: left }
