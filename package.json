@@ -1,11 +1,13 @@
 {
   "name": "flow.css",
-  "version": "0.3.0",
+  "version": "0.0.0",
   "description": "CSS floats and clears",
   "author": "Ryan Van Etten",
   "license": "ISC",
   "main": "flow.css",
-  "scripts": {},
+  "scripts": {
+    "start": "concat clear.css float.css -o flow.css"
+  },
   "homepage": "https://github.com/ryanve/flow.css",
   "repository": {
     "type": "git",
@@ -17,5 +19,8 @@
   "keywords": [
     "functional-css",
     "css"
-  ]
+  ],
+  "devDependencies": {
+    "concat": "^1.0.3"
+  }
 }

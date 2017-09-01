@@ -1,0 +1,9 @@
+.float-none { float: none }
+.float-left { float: left }
+.float-right { float: right }
+.float-start { float: inline-start }
+.float-end { float: inline-end }
+.float-start:dir(ltr) { float: left }
+.float-start:dir(rtl) { float: right }
+.float-end:dir(ltr) { float: right }
+.float-end:dir(rtl) { float: left }
