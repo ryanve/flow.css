@@ -1,3 +1,11 @@
+.inline-flow { display: inline }
+.inline-root { display: inline-block }
+.inline-table { display: inline-table }
+
+.block-flow { display: block }
+.block-root { display: block; display: flow-root }
+.block-table { display: table }
+
 .clear-none { clear: none }
 .clear-left { clear: left }
 .clear-right { clear: right }
