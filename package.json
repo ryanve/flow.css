@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "CSS floats and clears",
   "author": "Ryan Van Etten",
-  "license": "ISC",
+  "license": "CC0-1.0",
   "main": "flow.css",
   "scripts": {
     "start": "concat clear.css float.css -o flow.css"
