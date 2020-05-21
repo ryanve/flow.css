@@ -22,16 +22,24 @@ npm install flow.css
 
 ### [`display`](display.css)
 
-#### Classes are named to represent [the full display values](https://drafts.csswg.org/css-display/#display-value-summary)
-
-| Class | Value | Full value |
-|:------|:------------|:-----------|
+| Selector | Value | [Full display](https://drafts.csswg.org/css-display/#display-value-summary) |
+|:---------|:------|:-----------|
 | `.inline-flow` | `inline` | `inline flow` |
 | `.inline-root` | `inline-block` | `inline flow-root` |
+| `.inline-flex` | `inline-flex` | `inline flex` |
+| `.inline-grid` | `inline-grid` | `inline flex` |
 | `.inline-table` | `inline-table` | `inline table` |
 | `.block-flow` | `block` | `block flow` |
 | `.block-root` | `flow-root` | `block flow-root` |
+| `.block-flex` | `flex` | `block flex` |
+| `.block-grid` | `grid` | `block grid` |
 | `.block-table` | `table` | `block table` |
+| `.play-none` | `none` | `none` |
+| `.play-tent` | `contents` | `contents` |
+| `[hidden]` | `none` | `none` |
+
+- [Order reflects cascade](display.css)
+- `flow-root` fallback is `block`
 
 ### [`float`](float.css)
 - `.float-none`
