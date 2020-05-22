@@ -1,5 +1,5 @@
 const concat = require("concat")
-const ok = require("assert").strict
+const ok = require("assert")
 const fs = require("fs")
 const read = file => fs.readFileSync(file).toString()
 const all = read("flow.css")
