@@ -6,7 +6,7 @@
   "license": "CC0-1.0",
   "main": "flow.css",
   "scripts": {
-    "start": "concat display.css clear.css float.css -o flow.css",
+    "start": "node save",
     "test": "node test"
   },
   "homepage": "https://github.com/ryanve/flow.css",
