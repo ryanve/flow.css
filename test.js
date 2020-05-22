@@ -1,14 +1,11 @@
 const concat = require("concat")
 const ok = require("assert")
 const fs = require("fs")
+const team = require("./team")
 const read = file => fs.readFileSync(file).toString()
 const all = read("flow.css")
 
-concat([
-  "display.css",
-  "clear.css",
-  "float.css"
-]).then(mix => {
+concat(team).then(mix => {
   ok(all === mix)
   console.log("OK")
 }).catch(err => {
