@@ -3,7 +3,7 @@
   "version": "0.5.0",
   "description": "CSS floats and clears",
   "author": "Ryan Van Etten",
-  "license": "CC0-1.0",
+  "license": "0BSD",
   "main": "flow.css",
   "scripts": {
     "start": "node save",
